@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-    
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>To do List</title>
-    </head>
-    <body>
-        <body>
 
-            <div id="myDIV" class="header">
-              <h2 style="margin:5px">My To Do List</h2>
-              <input type="text" id="myInput" placeholder="Title...">
-              <span onclick="newElement()" class="addBtn">Add</span>
-            </div>
-            
-            <ul id="myUL">
-              <li>Hit the gym</li>
-              <li class="checked">Pay bills</li>
-              <li>Meet George</li>
-              <li>Buy eggs</li>
-              <li>Read a book</li>
-              <li>Organize office</li>
-            </ul>
-            
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-    </body>
+<head>
+
+
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <title>To do List</title>
+</head>
+
+<body>
+
+  <body>
+
+    <div id="myDIV" class="header">
+      <h2 style="margin:5px">My To Do List</h2>
+      <input type="text" id="myInput" placeholder="Title...">
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <ul id="myUL">
+      <li>Pick up the kids</li>
+      <li class="checked">Buy Onion</li>
+      <li>Pasta</li>
+      <li>Tomato</li>
+
+    </ul>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    
+  </body>
+
 </html>
